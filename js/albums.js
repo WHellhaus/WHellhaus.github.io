@@ -6,12 +6,12 @@ var albums = [
 			"review": "saturationReview"
 	}];
 
-// $.getJSON("albums.json", function(data){
-// 	if (typeof data !== "json"){
-// 		data = JSON.parse(data);
-// 	}
-// 	albums = data;
-// }, "html");
+ $.getJSON("albums.json", function(data){
+ 	if (typeof data !== "json"){
+ 		data = JSON.parse(data);
+ 	}
+	albums = data;
+}, "html");
 
 
 function buildHtml() {
