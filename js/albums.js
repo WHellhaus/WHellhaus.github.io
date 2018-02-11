@@ -3,7 +3,7 @@ var albums = [
 			"title": "Saturation",
 			"artist": "Brockhampton",
 			"image": "https://cdn-s3.allmusic.com/release-covers/250/0004/755/0004755927.jpg",
-			"review": saturationReview
+			"review": "saturationReview"
 	}];
 
 // $.getJSON("albums.json", function(data){
