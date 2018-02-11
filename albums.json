@@ -1,0 +1,16 @@
+{
+  "albums": [
+    {
+      "title": "Saturation Trilogy",
+      "artist": "Brockhampton",
+      "image": "https://blah.org",
+      "review": "text/saturation_review"
+    }
+    {
+      "title": "...Is a Real Boy",
+	  "artist": "Say Anything",
+	  "image": "https://www.scenepointblank.com/assets/img/covers/med_Say_Anything_Is_a_Real_Boy.png",
+	  "review": "Lorem ipsum dotsum.<br/>Lorem ipsum dotsum.<br/>Lorem ipsum dotsum."	
+    }
+  ]
+}
