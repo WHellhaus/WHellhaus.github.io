@@ -1,2 +1,2 @@
-# materialize-gallery-theme
-"Gallery" Materialize Theme by Alan Chang
+Pink Tree Project
+By Wolfgang HellicksonSabelhaus
