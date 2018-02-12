@@ -8,12 +8,14 @@ var albums = [
                 "title": "Saturation Trilogy",
                 "artist": "Brockhampton",
                 "image": "https://cdn-s3.allmusic.com/release-covers/250/0004/755/0004755927.jpg",
+                "reviewDate": "2/11/2018",
                 "review": saturationReview
         },
         {
                  "title":"...Is a Real Boy",
                  "artist":"Say Anything",
                  "image":"https://www.scenepointblank.com/assets/img/covers/med_Say_Anything_Is_a_Real_Boy.png",
+                 "reviewDate": "2/28/2018",
                  "review": isARealBoyReview  
         }];
 
@@ -38,8 +40,11 @@ function buildHtml() {
                 html+="        <div class=\"title-wrapper\">";
                 html+="          <h3>" + albums[i].title + "</h3>";
                 html+="          <span class=\"price\">" + albums[i].artist + "</span>";
+                html+="          <span class=\"price right\">" + "Reviewed on " + albums[i].reviewDate + "</span>";               
                 html+="        </div>";
                 html+= albums[i].review;
+                html+="<br/>"
+                html+="<br/>"
                 html+="</div>"
                 html+="</div>"
                 html+="</div>"

@@ -17,6 +17,7 @@ function buildHtml() {
                 html+="        <div class=\"title-wrapper\">";
                 html+="          <h3>" + albums[i].title + "</h3>";
                 html+="          <span class=\"price\">" + albums[i].artist + "</span>";
+                html+="          <span class=\"price right\">" + "Reviewed on " + albums[i].reviewDate + "</span>";
                 html+="        </div>";
                 html+= albums[i].review;
                 html+="</div>"
