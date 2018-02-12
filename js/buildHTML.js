@@ -1,4 +1,4 @@
-//Loops through all the albums and cretes a card for each
+//Loops through all the albums and creates a card for each
 function buildHtml() {
 	var div = document.getElementById("albumDiv");
 
