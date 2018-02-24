@@ -1,8 +1,10 @@
+//Gets html code for each album review
 var saturationReviewElement = document.getElementById('saturationReview'),
     saturationReview = saturationReviewElement.innerHTML;
 var isARealBoyReviewElement = document.getElementById('isarealboyReview'),
     isarealboyReview = isARealBoyReviewElement.innerHTML;
 
+//Array of albums
 var albums = [
         {
                 "title": "Saturation Trilogy",
